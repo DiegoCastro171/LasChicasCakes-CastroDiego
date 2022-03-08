@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(252, 229, 229);
+}
+
+ul {
+  list-style: none;
+}
+
+.menunav {
+  color: gray;
+}
+
+.menunav:hover {
+  color: white;
+  text-transform: uppercase;
+}
+
+.botton {
+  background-color: white;
+}
+
+.botton:hover {
+  background-color: gray;
+  color: white;
+}
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+  }
